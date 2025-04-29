@@ -4,7 +4,15 @@
   "type": "module",
   "description": "RP Model Context Protocol Server in TypeScript",
   "main": "index.ts",
+  "bin": {
+    "mcp-server": "./build/index.ts"
+  },
+  "files": [
+    "build"
+  ],
   "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
+    "inspector": "npx @modelcontextprotocol/inspector dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
