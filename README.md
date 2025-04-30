@@ -52,7 +52,7 @@ Each AI agent have different way to configure MCP servers, use the JSON below to
   "mcpServers": {
     "rp-mcp-server": {
       "command": "npx",
-      "args": ["-y", "args"]
+      "args": ["-y", "@abelpenton_dev/rp-mcp-server"]
     }
   }
 }
