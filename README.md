@@ -132,3 +132,29 @@ User: Book it using that quote.
 User: Actually, cancel the booking. Use the reference code I gave earlier.
 → Executes refundProtectCancelTool
 ```
+
+---
+
+## 9. Tools Available in Refund Protect MCP Server
+
+Here are the available tools in the Refund Protect MCP Server:
+
+`refundProtectQuoteTool` – Fetches a Refund Protect quote.
+
+`refundProtectQuoteLookupTool` – Retrieves details of an existing Refund Protect quote.
+
+`refundProtectSalesTool` – Creates a transaction using a Refund Protect quote.
+
+`refundProtectSalesLookupTool` – Retrieves details for a transaction using a booking reference.
+
+`refundProtectCancelTool` – Cancels a transaction using a booking reference.
+
+`rpWidgetInstallation` – Generates code for installing the Refund Protect JavaScript widget.
+
+`rpWidgetRender` – Generates code to render the Refund Protect JavaScript widget.
+
+`rpReactComponentInstallationTool` – Generates code for installing the Refund Protect React component.
+
+`rpReactComponentRenderTool` – Generates code to render the Refund Protect React component.
+
+`apiQuoteImplementation` – Creates a service in C# that implements Refund Protect Quote request.
